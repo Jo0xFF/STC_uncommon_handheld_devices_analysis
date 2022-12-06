@@ -12,6 +12,37 @@
 ## Overview of STC Uncommon handheld devices
 It's a dataset about various handheld devices that have been collected it's information in the span of 2 years and has features like brand names, vendor names, support of the device for 2G, 3G, 4G, etc.. Also the total number of how many users. Overall the dataset contains ~3 Millions record.
 
+- [Data Analysis \& Statistical Hypothesis \& Time Series Forecasting On STC Uncommon devices dataset](#data-analysis--statistical-hypothesis--time-series-forecasting-on-stc-uncommon-devices-dataset)
+  - [Overview of STC Uncommon handheld devices](#overview-of-stc-uncommon-handheld-devices)
+  - [Plan Of Attack](#plan-of-attack)
+  - [Data Analysis](#data-analysis)
+    - [Fix Structural Errors](#fix-structural-errors)
+    - [Inspect Features and Values](#inspect-features-and-values)
+      - [Check For Duplicates](#check-for-duplicates)
+    - [Dive deep with each columns values](#dive-deep-with-each-columns-values)
+    - [Optimization of DataFrame](#optimization-of-dataframe)
+    - [Change DataFrame columns](#change-dataframe-columns)
+    - [Data Attributes information](#data-attributes-information)
+  - [Statistical Analysis \& Hypothesis Testing](#statistical-analysis--hypothesis-testing)
+    - [Standard Deviation](#standard-deviation)
+  - [T-test](#t-test)
+  - [Chi-square test](#chi-square-test)
+  - [Data Visualization (Explatory Data Analysis)](#data-visualization-explatory-data-analysis)
+    - [TOP-15 Brands Used by people](#top-15-brands-used-by-people)
+    - [Preference of devices type between Saudi \& Non-Saudi](#preference-of-devices-type-between-saudi--non-saudi)
+    - [The Age range of Saudi \& Non-Saudi who uses those devices](#the-age-range-of-saudi--non-saudi-who-uses-those-devices)
+    - [Total Device Number in posession between Saudi \& Non-Saudi During the period of 2 years](#total-device-number-in-posession-between-saudi--non-saudi-during-the-period-of-2-years)
+    - [The preference in deivces in the support of 2G, 3G, 4G, WIFI, BLUETOOTH, TOUCHSCREEN, DUAL SIM.](#the-preference-in-deivces-in-the-support-of-2g-3g-4g-wifi-bluetooth-touchscreen-dual-sim)
+      - [The Comparison between 2G, 3G, 4G.](#the-comparison-between-2g-3g-4g)
+      - [The Comparison between bluetooth, touchscreen, Dual SIM.](#the-comparison-between-bluetooth-touchscreen-dual-sim)
+    - [OS Preference between Saudi \& Non-Saudi](#os-preference-between-saudi--non-saudi)
+    - [Most Popular Device Holders Filtered By Nationalities](#most-popular-device-holders-filtered-by-nationalities)
+  - [Time Series Forecasting](#time-series-forecasting)
+    - [Plot the Forecasted chart](#plot-the-forecasted-chart)
+  - [Improvements](#improvements)
+  - [Dataset link](#dataset-link)
+  - [License And Citations](#license-and-citations)
+
 
 ## Plan Of Attack
 
